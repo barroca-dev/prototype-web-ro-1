@@ -64,14 +64,15 @@ const Button = styled.button`
 
 
 const SecondSide = styled.div`
-  flex: 3;
+  flex:3;
   position: relative;
 `;
 
 const Img = styled.img`
-  width: 800px;
-  height: 600px;
+  width: 500px;
+  height: 500px;
   object-fit: contain;
+  position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
