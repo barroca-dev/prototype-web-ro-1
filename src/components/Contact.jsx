@@ -57,7 +57,7 @@ const Button = styled.button`
 `;
 
 const SeconSide = styled.div`
-  flex: 1;
+  flex: 1.5;
 `;
 
 
@@ -103,9 +103,7 @@ const handleSubmit = (e) => {
           </Form>
         </FirstSide>
         <SeconSide>
-          <MapChart 
-          style={{Width: "100%", heigth: "100%", backgroundColor: "red"}}
-          />
+          <MapChart />
         </SeconSide>
       </Container>
     </Section>

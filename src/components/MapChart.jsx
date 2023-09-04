@@ -13,13 +13,13 @@ const MapChart = () => {
     projection="geoMercator"
     projectionConfig={{
       center: [-40, -10], // Ajusta el centro para una ubicación al sur de Buenos Aires
-      scale: 300 // Ajusta el valor de escala según tus necesidades
+      scale: 250 // Ajusta el valor de escala según tus necesidades
     }}
     style={{height: "100%", width: "100%"}}
 >
 
 <Geographies
-  geography="/path/to/south_america.json" // Reemplaza con el archivo GeoJSON de América del Sur
+  geography="/features.json" // Reemplaza con el archivo GeoJSON de América del Sur
   fill="#16164a"
   stroke="#FFFFFF"
   strokeWidth={0.5}
